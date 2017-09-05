@@ -1,3 +1,22 @@
 h2 {
   font-size: 4rem;
 }
+
+.container {
+  margin-left: 40px;
+}
+
+.label {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.value {
+  color: #474747;
+  position: absolute;
+  left: 200px;
+}
+
+.message .value {
+  font-style: italic;
+}
