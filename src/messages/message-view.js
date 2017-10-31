@@ -14,7 +14,7 @@ export default function MessageView({message}) {
       </div>
       <div className="message">
         <span className="label">Message: </span>
-        <span className="value">{message.content}</span>
+        <span className="value">{message.message}</span>
       </div>
     </div>
   );
