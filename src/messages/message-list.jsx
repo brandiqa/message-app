@@ -8,34 +8,34 @@ class MessageList extends Component {
     messages:  [
       {
         from: 'John',
-        message: 'The event will start next week',
-        status: 'unread'
+        content: 'The event will start next week',
+        status: false
       },
       {
         from: 'Martha',
-        message: 'I will be travelling soon',
-        status: 'read'
+        content: 'I will be travelling soon',
+        status: true
       },
       {
         from: 'Jacob',
-        message: 'Talk later. Have a great day!',
-        status: 'read'
+        content: 'Talk later. Have a great day!',
+        status: true
       }
     ]
   }
 
   render() {
-    const messages  = this.state.messages.map(function(message, index) {
+    const messages  = this.state.messages.map((message, index) => {
       return(
         <MessageView key={index} message={message} />
       )
     })
-    return(
-      <div>
+    return (
+      <div className="container">
         <h1>List of Messages</h1>
         {messages}
       </div>
-    )
+    );
   }
 }
 
