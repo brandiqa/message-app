@@ -2,7 +2,7 @@
 
 This an example React app for the  [Getting Started with React](https://www.sitepoint.com/getting-started-react-beginners-guide/) tutorial.
 
-## Dependencies
+## Prerequisites
 
 - Latest LTS version of [Node.js](https://nodejs.org/en/download/)
 - [Yarn](https://classic.yarnpkg.com/en/docs/install)
